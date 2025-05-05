@@ -1,0 +1,23 @@
+#education {
+    margin-top: 50px;
+}
+
+#education h1 {
+    color: #d0e7ff ! important;
+}
+
+.education-image {
+    width: 350px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.education-card {
+
+    width: 90%;
+    height: 200px;
+    margin-top: 5px;
+    background: linear-gradient(270deg, #1e3c72, #1e4994);
+    color: white;
+    border: 2px solid #1e4994;
+}

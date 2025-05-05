@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(270deg, #1e3c72, #2a5298);
+
+}
+
+.container {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(12, 12, 185);
+
+}
+
+.global-header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: antiquewhite;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+
+}
+
+.global-header h1 {
+  position: absolute;
+  left: 50%;
+
+}
+
+.back-btn {
+
+  margin-left: auto;
+  text-align:center;
+  border-radius:15px;
+  border:5px solid #cac5c5;
+  padding:10px 40px;
+  color:black;
+  background-color:#cac5c5;
+  cursor:pointer;
+  
+}
+
+.card {
+  width: 50%;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: rgb(234, 230, 238);
+  text-align: center;
+  margin: 0px auto;
+  margin-top:50px;
+  position: relative;
+  margin-bottom: 10px;
+  
+  color:black;
+}
+
+.card.reverse {
+
+  background-color: black;
+  color: black;
+}
+
+.delete {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+.edit{
+  position:absolute;
+  top:10px;
+  right:60px;
+  cursor:pointer;
+}
+
+form {
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.input-group>input {
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid grey;
+  border-radius: 15px;
+
+
+}
+
+.btn {
+
+  color: white;
+  padding: 10px 50px;
+  border-radius: 15px;
+
+}
+
+.btn:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background-color: green;
+
+}
+
+.btn-secondary {
+  background-color: orangered;
+}
+
+.error {
+  color: red;
+}
+
+.length {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* reg form */
+
+.form-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#f5f5f5;
+  
+}
+.card{
+  width:50%;
+  border-radius:15px;
+}
+.card>h1{
+  text-align:center;
+  color:black;
+  font-size:24px;
+  margin-bottom:20px;
+}
+.form-group{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:100%;
+  margin:0px auto;
+}
+input{
+  display:block;
+  width:100%;
+  margin-bottom:30px;
+  padding:15px 10px;
+  border:1px solid #808080;
+  border-radius:5px;
+  
+
+}
+.btn-form{
+  width:100%;
+  padding:10px;
+  border:none;
+  background-color:blue;
+  border-radius:5px;
+  color:white;
+  cursor:pointer;
+}
+.success{
+  color:green;
+  font-size:14px;
+  text-align:center;
+}
